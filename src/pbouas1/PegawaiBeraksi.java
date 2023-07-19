@@ -38,7 +38,7 @@ public class PegawaiBeraksi {
     }   catch(NumberFormatException e ) {
             System.out.println("Kesalahan Format Nomor "+e.getMessage());
     }   catch(StringIndexOutOfBoundsException e){
-            System.out.println("Kesalahan Format NIK"+e.getMessage());
+            System.out.println("Kesalahan Format Nama"+e.getMessage());
     }
         catch (Exception e){
         System.out.println("Kesalahan Umum"+e.getMessage());
