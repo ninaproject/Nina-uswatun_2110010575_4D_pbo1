@@ -96,7 +96,7 @@ public class PegawaiDetail extends Pegawai {
 9. **Polymorphism** adalah konsep di mana sebuah nama dapat digunakan untuk merujuk ke beberapa tipe atau bentuk objek berbeda. Ini memungkinkan metode-metode dengan nama yang sama untuk berperilaku berbeda tergantung pada tipe objek yang mereka manipulasi, polymorphism bisa berbentuk Overloading ataupun Overriding. Pada kode ini, method `displayInfo(String)` di `Pegawai` merupakan overloading method `displayInfo` dan `displayInfo` di `PegawaiDetail` merupakan override dari method `displayInfo` di `Pegawai`.
 
 ```bash
-public String displayInfo(String kelas) {
+public String displayInfo(String alamat) {
     return displayInfo() + "\nAlamat: " + alamat;
 }
 
